@@ -9,16 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a1243cc-5584-4df6-94b4-b110af692ef9" name="Changes" comment="create home page">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="3a1243cc-5584-4df6-94b4-b110af692ef9" name="Changes" comment="make complete interface for crud service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/customerHome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/customerHome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/customerLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/customerLogin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/customerRegister.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/customerRegister.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/customerUpdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/customerUpdate.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +198,7 @@
       <option name="presentableId" value="Default" />
       <updated>1719832268533</updated>
       <workItem from="1719832269554" duration="1046000" />
-      <workItem from="1719850306281" duration="12880000" />
+      <workItem from="1719850306281" duration="14361000" />
     </task>
     <task id="LOCAL-00001" summary="create home page">
       <option name="closed" value="true" />
@@ -215,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719854609103</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="make complete interface for crud service">
+      <option name="closed" value="true" />
+      <created>1719873005459</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719873005459</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +224,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="create home page" />
+    <MESSAGE value="make complete interface for crud service" />
+    <option name="LAST_COMMIT_MESSAGE" value="make complete interface for crud service" />
   </component>
 </project>
