@@ -55,7 +55,7 @@
 
           <div class="navbar-collapse" id="">
             <div class="user_option">
-              <a href="">
+              <a href="pages/customerLogin.jsp">
                 Login
               </a>
             </div>
@@ -68,11 +68,11 @@
             </div>
             <div id="myNav" class="overlay">
               <div class="overlay-content">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="car.html">Cars</a>
-                <a href="blog.html">Blog</a>
-                <a href="contact.html">Contact Us</a>
+                <a href="#">Home</a>
+                <a href="pages/about.jsp">About</a>
+                <a href="pages/car.jsp">Cars</a>
+                <a href="pages/blog.jsp">Blog</a>
+                <a href="pages/contact.jsp">Contact Us</a>
                 <a href="pages/customerLogin.jsp">Login</a>
               </div>
             </div>
@@ -148,22 +148,22 @@
           <div class="col-lg-8">
             <div class="form-row">
               <div class="col-md-6">
-                <label for="parkingName">Pick Up Locaion</label>
-                <input type="text" class="form-control" placeholder="acb ">
+                <label for="pickupLocation">Pick Up Locaion</label>
+                <input type="text" class="form-control" placeholder="Pickup Location" id="pickupLocation" name="pickupLocation">
               </div>
               <div class="col-md-6">
-                <label for="parkingNumber">Drop Location</label>
-                <input type="text" class="form-control" placeholder="acb ">
+                <label for="dropLocation">Drop Location</label>
+                <input type="text" class="form-control" placeholder="Drop Location" id="dropLocation" name="dropLocation">
               </div>
             </div>
             <div class="form-row">
               <div class="col-md-6">
-                <label for="parkingName">Pick Up Date</label>
-                <input type="text" class="form-control" placeholder="07/09/2020">
+                <label for="pickupDate">Pick Up Date</label>
+                <input type="text" class="form-control" placeholder="07/09/2020" id="pickupDate" name="pickupDate">
               </div>
               <div class="col-md-6">
-                <label for="parkingNumber">Return Date</label>
-                <input type="text" class="form-control" placeholder="07/09/2020">
+                <label for="returnDate">Return Date</label>
+                <input type="text" class="form-control" placeholder="07/09/2020" id="returnDate" name="returnDate">
               </div>
             </div>
           </div>
@@ -786,8 +786,7 @@
 
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="js/custom.js"></script>
 
 

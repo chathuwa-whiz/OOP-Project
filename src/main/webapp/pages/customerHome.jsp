@@ -26,7 +26,7 @@
 	.navbar{
     	width: 100%;
     	height: 100px;
-    	background-color: #008080;
+    	background-color: #240a5e;
     	display: flex;
     	justify-content: space-around;
     	align-items: center;
@@ -62,8 +62,8 @@
 	}
 
 	.login a:hover{
-   		background-color: #52cfba;
-   		transition: 0.2s; 
+   		background-color: #0952c1;
+   		transition: 0.2s;
 	}
 
 	/*footer*/
@@ -75,7 +75,7 @@
 	}
 
 	.container{
-    	background-color: #008080;
+    	background-color: #240a5e;
 	}
 
 	.row{
@@ -101,7 +101,7 @@
     	width: 70px;
     	height: 2px;
     	position: absolute;
-    	background-color: #008080;
+    	background-color: #240a5e;
     	bottom: -10px;
 	}
 
@@ -132,7 +132,7 @@
 
 	.footer-col .inputSubmit{
     	padding: 0px 20px;
-    	background-color: #008080;
+    	background-color: #240a5e;
     	border: none;
     	color: white;
 	}
@@ -154,7 +154,7 @@
 	}
 
 	.row .socialIcons i:hover{
-    	color: #008080; 
+    	color: #008080;
 	}
 
 	/*style fot content*/
@@ -164,11 +164,11 @@
 		box-sizing: border-box;
 		font-family: "Poppins", sans-serif;
 	}
-	
+
 	body{
 		background: #dfe9f5;
 	}
-	
+
 	.wrapper{
 		width: 330px;
 		padding: 2rem 1rem;
@@ -178,13 +178,13 @@
 		text-align: center;
 		box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 	}
-	
+
 	h2{
 		font-size: 2rem;
 		color: #07001f;
 		margin-bottom: 1.2rem;
 	}
-	
+
 	form input{
 		width: 92%;
 		outline: none;
@@ -194,7 +194,7 @@
 		border-radius: 20px;
 		background: #e4e4e4;
 	}
-	
+
 	button{
 		font-size: 1rem;
 		margin-top: 1.8rem;
@@ -207,42 +207,42 @@
 		cursor: pointer;
 		background: #008080;
 	}
-	
+
 	button:hover{
 		background: #52cfba;
 	}
-	
+
 	input:focus{
 		border: 1px solid rgb(192, 192, 192);
 	}
-	
+
 	.terms{
 		margin-top: 0.2rem;
 		align-items: center;
 	}
-	
+
 	.terms input{
 		height: 1em;
 		width: 1em;
 		vertical-align: middle;
 		cursor: pointer;
 	}
-	
+
 	.terms label{
-		font-size: 0.7rem; 
+		font-size: 0.7rem;
 	}
-	
+
 	.terms a{
 		color: rgb(17, 107, 143);
 		text-decoration: none;
 	}
-	
+
 	.member{
 		font-size: 0.8rem;
 		margin-top: 1.4rem;
 		color: #636363;
 	}
-	
+
 	.member a{
 		color: rgb(17, 107, 143);
 		text-decoration: none;
@@ -252,7 +252,7 @@
 		font-size: 0.7rem;
 		margin: 0.3rem 1.4rem 0 0;
 	}
-	
+
 	.recover a{
 		text-decoration: none;
 		color: #464647;
@@ -262,7 +262,7 @@
 <body>
 
 <!--navigation bar -->
-	
+
 <div class="navbar">
 		<div class="logo">
 			<h1>Paradise Property</h1>
@@ -270,10 +270,10 @@
 		<div class="menu">
 			<ul>
 				<li><a href="#">Home</a></li>
-				<li><a href="#">Lands</a></li>
-				<li><a href="#">Apartments</a></li>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Contact Us</a></li>
+				<li><a href="about.jsp">About</a></li>
+				<li><a href="car.jsp">Cars</a></li>
+				<li><a href="blog.jsp">Blog</a></li>
+				<li><a href="contact.jsp">Contact Us</a></li>
 			</ul>
 		</div>
 		<div class="login">
@@ -372,7 +372,7 @@
                     </div>
                 </div>
 
-                
+
 
 
             </div>
@@ -389,8 +389,8 @@
                 <div class="footer-col">
                     <h4>Pages</h4>
                     <ul>
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.jsp">Contact Us</a></li>
+                        <li><a href="about.jsp">About Us</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a href="#">Terms & Conditions</a></li>
                     </ul>
@@ -417,7 +417,7 @@
                     </ul>
                 </div>
                 <!--4th column-->
-                
+
             </div>
             <hr>
             <div class="row">

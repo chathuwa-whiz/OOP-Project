@@ -11,270 +11,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" href="../css/login.css">
-    
-    <style>
-		/*Navigation*/
-	*{
-    	padding: 0px;
-    	margin: 0px;
-    	box-sizing: border-box;
-    	list-style: none;
-    	font-family: 'Poppins', sans-serif;
-	}
 
-	.navbar{
-    	width: 100%;
-    	height: 100px;
-    	background-color: #008080;
-    	display: flex;
-    	justify-content: space-around;
-    	align-items: center;
-    	color: #ffffff;
-	}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-	.menu ul{
-    	display: flex;
-    	align-items: center;
-	}
 
-	.menu ul li a{
-    	text-decoration: none;
-    	color: #ffffff;
-    	padding: 5px 12px;
-    	letter-spacing: 2px;
-    	font-size: 18px;
-	}
-
-	.menu ul li a:hover{
-    	border-bottom: 4px solid #ffffff;
-    	transition: 0.4s;
-	}
-
-	.login a{
-    	text-decoration: none;
-    	color: #ffffff;
-    	font-size: 18px;
-    	font-weight: bold;
-    	border-radius: 12px;
-    	padding: 12px 30px;
-    	border: 2px solid #ffffff;
-	}
-
-	.login a:hover{
-   		background-color: #52cfba;
-   		transition: 0.2s; 
-	}
-
-	/*footer*/
-	.footer{
-    	padding: 0;
-    	margin: 0;
-    	box-sizing: border-box;
-    	font-family: 'Poppins', sans-serif;
-	}
-
-	.container{
-    	background-color: #008080;
-	}
-
-	.row{
-    	display: flex;
-    	justify-content: space-between;
-    	padding: 40px 100px;
-	}
-
-	.footer-col ul{
-    	list-style: none;
-	}
-
-	.footer-col h4{
-    	color: white;
-    	margin-top: 25px;
-    	font-size: 22px;
-    	position: relative;
-    	font-family: 'Ubuntu', sans-serif;
-	}
-
-	.footer-col h3::before{
-    	content: '';
-    	width: 70px;
-    	height: 2px;
-    	position: absolute;
-    	background-color: #008080;
-    	bottom: -10px;
-	}
-
-	.footer-col ul li{
-    	padding: 10px 0;
-	}
-
-	.footer-col ul li a{
-    	color: white;
-    	text-decoration: none;
-    	font-size: 16px;
-    	opacity: 0.7;
-    	transition: 0.5s;
-	}
-
-	.footer-col ul li a:hover{
-    	opacity: 1;
-	}
-
-	.footer-col input{
-    	border: none;
-    	width: 250px;
-    	height: 45px;
-    	display: block;
-    	padding-left: 20px;
-    	margin: 14px 0;
-	}
-
-	.footer-col .inputSubmit{
-    	padding: 0px 20px;
-    	background-color: #008080;
-    	border: none;
-    	color: white;
-	}
-
-	.col p{
-    	color: white;
-	}
-
-	.row hr{
-    	opacity: 0.7;
-	}
-
-	.row .socialIcons i{
-    	display: inline-block;
-    	color: white;
-    	font-size: 20px;
-    	margin: 0 15px;
-    	transition: 0.5s;
-	}
-
-	.row .socialIcons i:hover{
-    	color: #008080; 
-	}
-
-	/*style fot content*/
-	*{
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-		font-family: "Poppins", sans-serif;
-	}
-	
-	body{
-		background: #dfe9f5;
-	}
-	
-	.wrapper{
-		width: 330px;
-		padding: 2rem 1rem;
-		margin: 50px auto;
-		background-color: #fff;
-		border-radius: 10px;
-		text-align: center;
-		box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
-	}
-	
-	h2{
-		font-size: 2rem;
-		color: #07001f;
-		margin-bottom: 1.2rem;
-	}
-	
-	form input{
-		width: 92%;
-		outline: none;
-		border: 1px solid #fff;
-		padding: 12px 20px;
-		margin-bottom: 10px;
-		border-radius: 20px;
-		background: #e4e4e4;
-	}
-	
-	button{
-		font-size: 1rem;
-		margin-top: 1.8rem;
-		padding: 10px 0;
-		border-radius: 20px;
-		outline: none;
-		border: none;
-		width: 90%;
-		color: #fff;
-		cursor: pointer;
-		background: #008080;
-	}
-	
-	button:hover{
-		background: #52cfba;
-	}
-	
-	input:focus{
-		border: 1px solid rgb(192, 192, 192);
-	}
-	
-	.terms{
-		margin-top: 0.2rem;
-		align-items: center;
-	}
-	
-	.terms input{
-		height: 1em;
-		width: 1em;
-		vertical-align: middle;
-		cursor: pointer;
-	}
-	
-	.terms label{
-		font-size: 0.7rem; 
-	}
-	
-	.terms a{
-		color: rgb(17, 107, 143);
-		text-decoration: none;
-	}
-	
-	.member{
-		font-size: 0.8rem;
-		margin-top: 1.4rem;
-		color: #636363;
-	}
-	
-	.member a{
-		color: rgb(17, 107, 143);
-		text-decoration: none;
-	}
-	.recover{
-		text-align: right;
-		font-size: 0.7rem;
-		margin: 0.3rem 1.4rem 0 0;
-	}
-	
-	.recover a{
-		text-decoration: none;
-		color: #464647;
-	}
-	</style>
 </head>
 <body>
 
-<div class="container">
-    <h1>Welcome Back</h1>
-    <form id="login-form" method="post" action="../login">
-        <div class="form-group">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" placeholder="Enter Username" required>
+<section class="vh-100" style="background-color: #240a5e;">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-xl-10">
+                <div class="card" style="border-radius: 1rem;">
+                    <div class="row g-0">
+                        <div class="col-md-6 col-lg-5 d-none d-md-block">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp"
+                                 alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
+                        </div>
+                        <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                            <div class="card-body p-4 p-lg-5 text-black">
+
+                                <form id="login-form" method="post" action="../login">
+
+                                    <div class="d-flex align-items-center mb-3 pb-1">
+                                        <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
+                                        <span class="h1 fw-bold mb-0">Logo</span>
+                                    </div>
+
+                                    <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
+
+                                    <div data-mdb-input-init class="form-outline mb-4">
+                                        <input type="email" id="username" class="form-control form-control-lg" name="username" />
+                                        <label class="form-label" for="username">Email address</label>
+                                    </div>
+
+                                    <div data-mdb-input-init class="form-outline mb-4">
+                                        <input type="password" id="password" class="form-control form-control-lg" name="password" />
+                                        <label class="form-label" for="password">Password</label>
+                                    </div>
+
+                                    <div class="pt-1 mb-4">
+                                        <button data-mdb-button-init data-mdb-ripple-init class="btn btn-dark btn-lg btn-block" type="submit">Login</button>
+                                    </div>
+
+                                    <a class="small text-muted" href="#!">Forgot password?</a>
+                                    <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account? <a href="customerRegister.jsp"
+                                                                                                              style="color: #393f81;">Register here</a></p>
+                                    <a href="#!" class="small text-muted">Terms of use.</a>
+                                    <a href="#!" class="small text-muted">Privacy policy</a>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" placeholder="Enter Password" required>
-        </div>
-        <button type="submit">Login</button>
-        <a href="customerRegister.jsp">Create Account</a>
-    </form>
-</div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 </html>

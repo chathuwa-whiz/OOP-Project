@@ -109,6 +109,7 @@
     .slider_section .carousel-control-next {
         display: none;
     }
+}
 
 
     @media (max-width: 480px) {
