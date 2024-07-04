@@ -25,7 +25,7 @@
                 <div class="card" style="border-radius: 1rem;">
                     <div class="row g-0">
                         <div class="col-md-6 col-lg-5 d-none d-md-block">
-                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp"
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img2.webp"
                                  alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
                         </div>
                         <div class="col-md-6 col-lg-7 d-flex align-items-center">
@@ -41,12 +41,12 @@
                                     <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
 
                                     <div data-mdb-input-init class="form-outline mb-4">
-                                        <input type="email" id="username" class="form-control form-control-lg" name="username" />
+                                        <input type="email" id="username" class="form-control form-control-lg" name="username" value="henricpeter@gmail.com" />
                                         <label class="form-label" for="username">Email address</label>
                                     </div>
 
                                     <div data-mdb-input-init class="form-outline mb-4">
-                                        <input type="password" id="password" class="form-control form-control-lg" name="password" />
+                                        <input type="password" id="password" class="form-control form-control-lg" name="password" value="1234" />
                                         <label class="form-label" for="password">Password</label>
                                     </div>
 

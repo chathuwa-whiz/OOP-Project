@@ -24,7 +24,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Rent4u</title>
+  <title>Auto Lanka</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
@@ -47,9 +47,9 @@
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.jsp">
             <span>
-              Rent4u
+              Auto Lanka
             </span>
           </a>
 
@@ -97,7 +97,7 @@
                     Experts <br>
                     Service
                   </h1>
-                  <a href="">
+                  <a href="pages/contact.jsp">
                     Contact Us
                   </a>
                 </div>
@@ -109,7 +109,7 @@
                     Experts <br>
                     Service
                   </h1>
-                  <a href="">
+                  <a href="pages/contact.jsp">
                     Contact Us
                   </a>
                 </div>
@@ -121,7 +121,7 @@
                     Experts <br>
                     Service
                   </h1>
-                  <a href="">
+                  <a href="pages/contact.jsp">
                     Contact Us
                   </a>
                 </div>
@@ -148,7 +148,7 @@
           <div class="col-lg-8">
             <div class="form-row">
               <div class="col-md-6">
-                <label for="pickupLocation">Pick Up Locaion</label>
+                <label for="pickupLocation">Pick Up Location</label>
                 <input type="text" class="form-control" placeholder="Pickup Location" id="pickupLocation" name="pickupLocation">
               </div>
               <div class="col-md-6">

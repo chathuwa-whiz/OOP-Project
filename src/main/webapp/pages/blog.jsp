@@ -37,7 +37,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container">
           <a class="navbar-brand" href="../index.jsp">
             <span>
-              Rent4u
+              Auto Lanka
             </span>
           </a>
 

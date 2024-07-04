@@ -1,5 +1,7 @@
 # Online Vehicle Rental System CRUD Application
 
+![Image](src/main/webapp/images/screenshot/img_1.png)
+
 This project is a CRUD (Create, Read, Update, Delete) application developed as part of the Year 2 Semester 1 project. It provides a backend system using Java Servlets and a frontend interface using HTML, CSS, and JavaScript. The frontend design is based on resources from [MDBootstrap](https://mdbootstrap.com/) and [Free CSS](https://www.free-css.com/).
 
 ## Features

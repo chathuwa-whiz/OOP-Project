@@ -9,7 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a1243cc-5584-4df6-94b4-b110af692ef9" name="Changes" comment="create readme" />
+    <list default="true" id="3a1243cc-5584-4df6-94b4-b110af692ef9" name="Changes" comment="change readme">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/screenshot/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/customers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/customers.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/about.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/about.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/blog.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/blog.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/car.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/car.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/contact.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/contact.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/customerHome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/customerHome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/customerLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/customerLogin.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,29 +48,36 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2idtQqxZGS6yPIB4PoVphKmnQxc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Smart Tomcat.SmartTomcat.executor": "Run",
-    "Tomcat Server.Tomcat 10.1.25.executor": "Run",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/EXT/Documents/OOP-Project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.SmartTomcat.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.25.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/EXT/Documents/OOP-Project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\EXT\Documents\OOP-Project\database" />
+    </key>
+  </component>
   <component name="RunManager" selected="Smart Tomcat.SmartTomcat">
     <configuration name="Tomcat 10.1.25" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.25" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="22">
       <deployment>
@@ -155,9 +174,6 @@
       <option name="catalinaBase" value="C:\Users\EXT\.SmartTomcat\OOP-Project\OOP-Project" />
       <option name="contextPath" value="/" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="port" value="8081" />
       <option name="tomcatInfo">
@@ -195,7 +211,8 @@
       <option name="presentableId" value="Default" />
       <updated>1719832268533</updated>
       <workItem from="1719832269554" duration="1046000" />
-      <workItem from="1719850306281" duration="14661000" />
+      <workItem from="1719850306281" duration="14844000" />
+      <workItem from="1720113991376" duration="3123000" />
     </task>
     <task id="LOCAL-00001" summary="create home page">
       <option name="closed" value="true" />
@@ -221,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719874195743</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change readme">
+      <option name="closed" value="true" />
+      <created>1719874518430</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719874518430</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +256,7 @@
     <MESSAGE value="create home page" />
     <MESSAGE value="make complete interface for crud service" />
     <MESSAGE value="create readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="create readme" />
+    <MESSAGE value="change readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="change readme" />
   </component>
 </project>

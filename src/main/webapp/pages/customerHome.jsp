@@ -269,7 +269,7 @@
 		</div>
 		<div class="menu">
 			<ul>
-				<li><a href="#">Home</a></li>
+				<li><a href="">Home</a></li>
 				<li><a href="about.jsp">About</a></li>
 				<li><a href="car.jsp">Cars</a></li>
 				<li><a href="blog.jsp">Blog</a></li>
